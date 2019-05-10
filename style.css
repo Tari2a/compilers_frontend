@@ -1,0 +1,119 @@
+/*-------------------------NAVIGATION------------------------*/
+.menu ul{
+  list-style: none;
+  padding-left: 0px;
+  margin:0px;
+}
+.menu ul li{
+  display : inline-block;
+  margin :0px;
+  margin-right: 20px;
+}
+.logo, .menu{
+  display: inline-block;
+}
+.menu{
+  float: right;
+  margin:20px;
+}
+.logo{
+  margin: 20px;
+}
+.navigation{
+  background-color:lightblue;
+}
+.menu ul li a{
+  text-decoration: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu ul li a:hover{
+  background-color: blue;
+  color: white;
+  transition: all 0.5s ease ;
+}
+body{
+  margin:0px;
+}
+/*----------------------------------HEADER---------------------------*/
+header .text{
+  height: 400px;
+  width: 800px;
+}
+header{
+  background-image: url('a.jpg');
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+header a{
+  margin :0;
+}
+.heroc{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.btn-compile{
+  background-color: grey;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  margin: 15px 10px;
+  font: bold;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.btn-compile:hover{
+  color:white;
+  background-color: green;
+  transition: all 0.5s ease;
+}
+.btn-clear:hover{
+  color:white;
+  background-color: red;
+  transition: all 0.5s ease;
+}
+.btn-clear{
+  background-color: grey;
+  padding: 10px 25px;
+  display: inline-block;
+  margin: 15px 10px;
+  color: black;
+  font: bold;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/*-------------------------------syntax--------------------------------*/
+/*add code*/
+.syntax{
+  width: 100%;
+}
+.syntax h1{
+  text-align: center;
+  font-size: 50px;
+  background-color: lightblue;
+  padding-bottom: 0px;
+  text-transform: uppercase;
+}
+.syntax
+{
+  width: 100%;
+}
+.syntax .left,.syntax .right{
+
+  width:40%;
+  float: left;
+}
+.syntax .left{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+}
+.syntax .left img{
+  max-width: 100%;
+}
+/*-------------------------------contact us--------------------------------*/
